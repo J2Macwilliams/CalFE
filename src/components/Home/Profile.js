@@ -22,7 +22,7 @@ const Profile = () => {
   return (
     <div>
       <h1>Profile</h1>
-      <img src={profile && profile.picture} alt='user image' />
+      <img src={profile && profile.picture} alt='user' />
       <h3>{profile && profile.name}</h3>
       
       
